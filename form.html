@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Back to planets overview</a>
+    </nav>
+    <h1>Fill in the form please:</h1>
+    <form action="https://formspree.io/f/mpzoqbyd" method="POST">
+      <p>What planet is the biggest one?</p>
+      <label for=""><input type="radio" name="biggest-size" value="jupiter"/>Jupiter</label> <br>
+      <label for=""><input type="radio" name="biggest-size" value="neptune"/>Neptune</label> <br>
+      <label for=""><input type="radio" name="biggest-size" value="uranus"/>Uranus</label> <br>
+      <label for=""><input type="radio" name="biggest-size" value="saturn"/>Saturn</label>
+      <p>Give us more information about you:</p>
+      <label>Your name<input type="text" placeholder="Name" name="name" required></label> <br>
+      <label>Email address<input type="text" placeholder="email" name="email" required></label>
+      <p>Please select planets you would like to learn deeper</p>
+      <input type="checkbox" id="planet1" name="more-about" value="jupiter">
+      <label for="planet1">Jupiter</label><br>
+      <input type="checkbox" id="planet2" name="more-about" value="saturn">
+      <label for="planet2">Saturn</label><br>
+      <input type="checkbox" id="planet3" name="more-about" value="neptune">
+      <label for="planet3">Neptune</label><br>
+      <p>Whould you like to get more information about planets?</p>
+      <label for=""><input type="radio" name="subscribe" value="yes"/>Yes</label> <br>
+      <label for=""><input type="radio" name="subscribe" value="no"/>No</label> <br> <br>
+      <input type="submit" name="submit" value="Send">
+    </form>
+  </body>
+</html>
